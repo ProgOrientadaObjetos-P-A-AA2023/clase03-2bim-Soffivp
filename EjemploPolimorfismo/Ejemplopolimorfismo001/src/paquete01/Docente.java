@@ -6,17 +6,18 @@
 package paquete01;
 
 public abstract class Docente {
+
     private String nombre;
-    
-    public Docente(String n){
+
+    public Docente(String n) {
         nombre = n;
     }
-    
-    public void establecerDocente(String n){
+
+    public void establecerDocente(String n) {
         nombre = n;
     }
-    
-    public String obtenerDocente(){
+
+    public String obtenerDocente() {
         return nombre;
     }
 }
